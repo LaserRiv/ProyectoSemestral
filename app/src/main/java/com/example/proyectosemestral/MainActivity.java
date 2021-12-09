@@ -13,8 +13,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
-    String[] opciones = {"Presentación", "Sensor 1 Temperatura", "Sensor 2 Rotación"};
-    String[] msg = {"Presentación", "Sensor 1 Temperatura", "Sensor 2 Rotación"};
+    String[] opciones = {"Presentación", "Sensor 1 Temperatura", "Sensor 2 Proximidad"};
+    String[] msg = {"Presentación", "Sensor 1 Temperatura", "Sensor 2 Proximidad"};
     private Button button;
     private int pos;
 
