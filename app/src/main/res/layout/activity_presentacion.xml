@@ -99,6 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
+                android:textSize="16sp"
                 android:text="Estudiantes:" />
 
             <TextView
@@ -106,6 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
+                android:textSize="16sp"
                 android:text="Víctor Ocampo E-8-170325" />
 
             <TextView
@@ -113,6 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
+                android:textSize="16sp"
                 android:text="Laser Rivera 20-58-3695" />
 
             <TextView
@@ -120,6 +123,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
+                android:textSize="16sp"
                 android:text="Grupo 1IL-143" />
 
             <TextView
@@ -127,6 +131,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
+                android:textSize="16sp"
                 android:text="II Semestre 2021" />
         </LinearLayout>
     </ScrollView>
