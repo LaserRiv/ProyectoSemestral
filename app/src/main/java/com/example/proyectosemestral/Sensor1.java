@@ -1,5 +1,6 @@
 package com.example.proyectosemestral;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 /*hoa mundo*/
 import android.content.Context;
@@ -25,6 +26,10 @@ public class Sensor1 extends AppCompatActivity implements SensorEventListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensor1);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Sensor Temperatura");
+
         button3 = findViewById(R.id.button3);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override

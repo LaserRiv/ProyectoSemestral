@@ -1,5 +1,6 @@
 package com.example.proyectosemestral;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -22,6 +23,8 @@ public class Sensor2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensor2);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Sensor Proximidad");
         button4 = findViewById(R.id.button4);
 
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
