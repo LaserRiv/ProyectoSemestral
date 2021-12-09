@@ -1,7 +1,7 @@
 package com.example.proyectosemestral;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+/*hoa mundo*/
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.Sensor;
